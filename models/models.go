@@ -1,0 +1,14 @@
+package models
+
+import (
+	"gorm.io/gorm"
+)
+
+type User struct {
+	gorm.Model
+	FirstName string `json:"firstname"`
+	LastName  string `json:"lastname"`
+	Email     string `json:"email" gorm:"uniqueIndex"`
+	MobileNum string `json:"mobilenum" gorm:"uniqueIndex"`
+	Password  string `json:"password"`
+}
