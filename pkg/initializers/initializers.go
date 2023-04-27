@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"sportzone/models"
+	"sportzone/pkg/models"
 
 	"github.com/joho/godotenv"
 	"gorm.io/driver/postgres"

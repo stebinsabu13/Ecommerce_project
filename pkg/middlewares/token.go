@@ -2,8 +2,8 @@ package middlewares
 
 import (
 	"net/http"
-	"sportzone/initializers"
-	"sportzone/models"
+	"sportzone/pkg/initializers"
+	"sportzone/pkg/models"
 	"time"
 
 	"github.com/gin-gonic/gin"

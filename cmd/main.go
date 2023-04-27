@@ -1,9 +1,9 @@
 package main
 
 import (
-	"sportzone/controllers"
-	"sportzone/initializers"
-	"sportzone/middlewares"
+	"sportzone/pkg/controllers"
+	"sportzone/pkg/initializers"
+	"sportzone/pkg/middlewares"
 
 	"github.com/gin-gonic/gin"
 )

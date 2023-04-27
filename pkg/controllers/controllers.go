@@ -3,9 +3,9 @@ package controllers
 import (
 	"fmt"
 	"net/http"
-	"sportzone/initializers"
-	"sportzone/middlewares"
-	"sportzone/models"
+	"sportzone/pkg/initializers"
+	"sportzone/pkg/middlewares"
+	"sportzone/pkg/models"
 	"time"
 
 	"github.com/gin-gonic/gin"
